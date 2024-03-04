@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            string a = '안';
+            int a = 12345;
+            string b = (string)a;
         }
     }
 }
