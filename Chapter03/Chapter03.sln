@@ -27,17 +27,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Bool", "10_Bool\10_Bool.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Object", "11_Object\11_Object.csproj", "{23852D15-49E1-4E00-97C5-48ECB48A29ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringNumberConversion", "StringNumberConversion\StringNumberConversion.csproj", "{0CDC6671-6400-43C1-A3C3-BC0228AD8EB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringNumberConversion", "StringNumberConversion\StringNumberConversion.csproj", "{0CDC6671-6400-43C1-A3C3-BC0228AD8EB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constant", "Constant\Constant.csproj", "{16E6D66F-4779-48B7-8516-617A799DE890}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constant", "Constant\Constant.csproj", "{16E6D66F-4779-48B7-8516-617A799DE890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", "{F621D08B-D80C-4A1D-B519-8C4742AE66C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum", "Enum\Enum.csproj", "{F621D08B-D80C-4A1D-B519-8C4742AE66C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum2", "Enum2\Enum2.csproj", "{9151E061-63DA-4E0B-BD1D-339D5F2B6AC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum2", "Enum2\Enum2.csproj", "{9151E061-63DA-4E0B-BD1D-339D5F2B6AC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum3", "Enum3\Enum3.csproj", "{2E4E65E2-E607-4A20-B49A-BC38D1E838D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum3", "Enum3\Enum3.csproj", "{2E4E65E2-E607-4A20-B49A-BC38D1E838D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable", "Nullable\Nullable.csproj", "{C094124A-FB9E-412E-8E08-5F3B3A4B4575}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nullable", "Nullable\Nullable.csproj", "{C094124A-FB9E-412E-8E08-5F3B3A4B4575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_BoxingUnboxing", "12_BoxingUnboxing\12_BoxingUnboxing.csproj", "{2FAC4853-9CF1-4EF3-B671-ADB927599516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_IntegralConversion", "13_IntegralConversion\13_IntegralConversion.csproj", "{577D5D8A-C805-45D6-BB95-6607C218C493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_FloatConversion", "14_FloatConversion\14_FloatConversion.csproj", "{B6801DB5-73E3-4BCC-A052-3F161DE22F82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +123,18 @@ Global
 		{C094124A-FB9E-412E-8E08-5F3B3A4B4575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C094124A-FB9E-412E-8E08-5F3B3A4B4575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C094124A-FB9E-412E-8E08-5F3B3A4B4575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAC4853-9CF1-4EF3-B671-ADB927599516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAC4853-9CF1-4EF3-B671-ADB927599516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAC4853-9CF1-4EF3-B671-ADB927599516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAC4853-9CF1-4EF3-B671-ADB927599516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577D5D8A-C805-45D6-BB95-6607C218C493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577D5D8A-C805-45D6-BB95-6607C218C493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577D5D8A-C805-45D6-BB95-6607C218C493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577D5D8A-C805-45D6-BB95-6607C218C493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6801DB5-73E3-4BCC-A052-3F161DE22F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6801DB5-73E3-4BCC-A052-3F161DE22F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6801DB5-73E3-4BCC-A052-3F161DE22F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6801DB5-73E3-4BCC-A052-3F161DE22F82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
